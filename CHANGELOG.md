@@ -16,6 +16,11 @@ instructions, because git commits are used to generate release notes:
 
 <!-- scriv-insert-here -->
 
+<a id='changelog-19.0.6'></a>
+## v19.0.6 (2026-10-26)
+
+- [Bugfix] Remove check for root that breaks S3 uploads.
+
 <a id='changelog-19.0.5'></a>
 ## v19.0.5 (2026-10-09)
 

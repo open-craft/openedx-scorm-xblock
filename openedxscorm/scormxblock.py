@@ -1186,8 +1186,6 @@ class ScormXBlock(ScormTrackingMixin, XBlock, CompletableXBlockMixin):
         """
         Same as `find_file_path`, but don't raise error on file not found.
         """
-        if not self.storage.exists(root):
-            return None
         try:
             subfolders, files = self.storage.listdir(root)
         except (FileNotFoundError, OSError):
